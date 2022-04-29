@@ -1,3 +1,7 @@
+; Compile me with:
+; nasm -f elf32 shell.asm -o shell.o
+; ld -m elf_i386 shell.o -o executable
+
 %define sys_execve 0xb
 %define sys_exit 0x1
 
