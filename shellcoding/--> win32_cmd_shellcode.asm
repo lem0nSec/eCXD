@@ -8,6 +8,9 @@
 ; Date: 30/04/2022
 ; Lang: win32 Assembly
 
+; compile to object with --> nasm win32_cmd_shellcode.asm -o cmd.bin
+; extract opcodes using bin2sc.py (https://gist.github.com/superkojiman/11164279)
+
 BITS 32
 
 global _start
