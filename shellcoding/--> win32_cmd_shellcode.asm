@@ -1,17 +1,21 @@
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;-------------------------------------------------------------------------------------------------------------------------------;
 ; 1) This shellcode will spawn a cmd.exe
 ; 2) Null-bytes free
 ; 3) This shellcode was developed using a Windows XP SP3 kernel32.dll Winexec address, so it won't work on a different system
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;-------------------------------------------------------------------------------------------------------------------------------;
 
+;------------------------;
 ; Author: lem0nSec_
 ; Date: 30/04/2022
 ; Lang: win32 Assembly
+;------------------------;
 
+;-----------------------------------------------------------------------------------;
 ; compile to object with --> nasm win32_cmd_shellcode.asm -o cmd.bin
 ; extract opcodes using bin2sc.py (https://gist.github.com/superkojiman/11164279)
+;-----------------------------------------------------------------------------------;
 
-BITS 32
+[BITS 32]
 
 global _start
 
