@@ -7,6 +7,8 @@
 # OS: Kali Linux 5.10.0-kali9-amd64             #
 #-----------------------------------------------#
 
+# Compile Vulnero.c with: gcc vulnero.c -m32 -fstack-protector-all -no-pie -o vulnero
+
 # -----------------------------> DESCRIPTION <----------------------------------------------------------------
 
 # 1) Write-What-Where to link the end of strings() to its beginning (looping through it)
