@@ -1,5 +1,9 @@
 # bineX-Arena
-I created this project while preparing for the eCXD exam (eLearnSecurity Certified Exploit Developer). The goal is to illustrate how a single, vulnerable binary can be exploited in multiple ways depending on the protections in place. Anyone can train its binary exploitation and exploit development skills in the arena by simply compiling the C vulnerable code "alca.c" and following the instructions to build a working exploit in Python.
-The project is still at its early days and only features some Linux binary exploitation pocs for now, but I am confident to be able to add a section on Windows exploit development as well as other vulnerable C code!
+**Hijacking execution flows since the early days - Learn, Train, Grow**
+
+---------------------------------------------------------------
+
+## What is it?
+I created this repository while studying towards the eCXD exam. Right now this is just a disorganized collection of different types of exploits and binary exploitation challenges for both Windows and Linux operating systems. The idea is to create an 'Arena' where any beginner/intermediate user can learn new things and train its binary exploitation and exploit development skills. Clearly this project is still incomplete, but you can expect regular updates.
 
 *Enjoy!*
