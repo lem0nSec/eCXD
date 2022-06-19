@@ -13,7 +13,7 @@ void stack() {
 
         char buf[140];
         printf("Please enter a value: \n");
-        read(0, buf, 300);
+        scanf("%s", &buf);
         puts(buf);
 }
 
