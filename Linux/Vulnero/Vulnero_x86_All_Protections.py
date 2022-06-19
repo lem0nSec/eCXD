@@ -9,7 +9,7 @@
 
 # -----------------------------> DESCRIPTION <----------------------------------------------------------------
 
-# 1) Write-What-Where to link the end of strings to its beginning (looping through it)
+# 1) Write-What-Where to link the end of strings() to its beginning (looping through it)
 # 2) Performing a memory leak through format strings on the Canary value and an address with costant
 # offset from the libc base address. Then retrieving libc base address from that address.
 # 3) Write-What-Where on read() GOT entry in strings() to jump from strings() to stack()
