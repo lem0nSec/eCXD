@@ -3,7 +3,7 @@
 #-----------------------------------------------#
 # Arch: x86                                     #
 # Protections: NX, ASLR, Canary, Partial RELRO  #
-# Vuln Type: format strings exploitation        #
+# Vuln Type: format strings exploitation + rop  #
 # OS: Kali Linux 5.10.0-kali9-amd64             #
 #-----------------------------------------------#
 
