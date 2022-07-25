@@ -1,14 +1,16 @@
-# Title: Kingdia CD Extractor 1.2.0 - CVE N\A
+# Title: Kingdia CD Extractor 3.0.2 - CVE N\A
 # Target binary: 'Kingdia CD Extractor.exe'
 # Target system: Windows 7 SP1
 # Stack Overflow + ROP Chain --> SkinMagic.dll, in_mad.dll
 # ExploitDB page: https://www.exploit-db.com/exploits/50470
 
-# Please note that the exploit code on ExploitDB is related
-# to Kingdia CD Extractor version 3.2.0. It seems that the
-# vulnerability affects this version too. In addition, this
-# version implements a rop chain to bypass Data Execution
-# Prevention and Address Space Layout Randomization.
+# Note that this exploit is different than the one on ExploitDB.
+# Although the ExploitDB code is an SEH overwrite and this
+# is just a basic EIP overwrite, I wanted to implemented 
+# a ROP Chain to bypass Data Execution Prevention and 
+# Address Space Layout Randomization. This was possible because 
+# the software comes with two modules that lack both ASLR and Rebasing: 
+# SkinMagic.dll and in_mad.dll.
 
 from struct import pack
 
