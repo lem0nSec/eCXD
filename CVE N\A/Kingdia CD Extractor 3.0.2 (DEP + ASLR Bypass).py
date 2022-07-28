@@ -15,7 +15,7 @@
 
 # NOTES ABOUT THE ROP CHAIN
 #---------------------------
-# This rop chain was developed with VirtualProtect. The vulnerable application come with two
+# This rop chain was developed with VirtualProtect. The vulnerable application comes with two
 # modules (SkinMagic.dll and in_mad.dll) which do not support Address Space Layout Randomization
 # nor are they rebased.
 
