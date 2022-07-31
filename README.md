@@ -1,7 +1,6 @@
-# bineX-Arena
-**Hijacking execution flows since the early days - Learn, Train, Grow**
+# eCXD - eLearnSecurity Certified eXploit Developer 🌋
 
-## What is it?
-I created this repository while studying towards the eCXD exam. Right now this is just a disorganized collection of different types of exploits and binary exploitation challenges for both Windows and Linux operating systems. The idea is to create an 'Arena' where any beginner/intermediate user can learn new things and train its binary exploitation and exploit development skills. Clearly this project is still incomplete, but you can expect regular updates.
+## Repository Content
+I created this repository while studying towards the eCXD exam. Here you can find both Windows and Linux exploit development material. A significant portion of the repository is dedicated to exploit code, but there's also some vulnerable C code that I developed for Linux platforms just to make experiments with the skills gained during the Exploit Development Student course. Each folder comes with instructions explaining the content of the specific section you are in. So feel free to explore and good luck with your exam!
 
 *Enjoy!*
