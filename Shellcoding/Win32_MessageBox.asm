@@ -10,14 +10,6 @@ global _start
 ;  UINT uType
 ;)
 
-; uType: ecx -> 0
-; lpCaption: ebx
-; lpText: edx
-; UINT: ecx -> 0
-
-; MessageBoxA: eax
-
-
 
 _start:
 
