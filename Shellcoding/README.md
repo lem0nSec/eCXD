@@ -1,0 +1,2 @@
+## Shellcoding Arsenal
+This is the shellcode 'arsenal' I developed before taking the exam. The reason I did this is because I prefer not using msfvenom-generated payloads because they are too large. Often times I've ended up dealing with limited buffer space. However I always opt for short, custom shellcodes first instead of just deploying egghunters. What is more, I have been coming across situations where egghunters are literally useless. This often happens with applications having just a few functionalities not allowing users to send multiple inputs at the same time.
