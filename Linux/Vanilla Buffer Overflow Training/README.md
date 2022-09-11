@@ -1,0 +1,2 @@
+# Linux Binary Exploitation - Basic Training
+This part of the repo is dedicated to binary exploitation of ELF applicatons. The sample C code is a very basic challenge I developed to practice various binary exploitation techniques. Try to compile the code and develop as many different exploit codes as you can! Remember that although pwning the binary might seem easy to you, things may change if the code is compiled with memory protections.
