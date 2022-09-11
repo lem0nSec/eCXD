@@ -1,0 +1,2 @@
+# Vulnero - A .ELF Vulnerable Application
+Vulnero is another C vulnerable code I developed while trying to combine multiple advanced binary exploitation techniques in one single exploit. Exploiting this code may go beyond a simple stack smashing, and chaining multiple memory leaks and memory overwritings may be required to complete this challenge. It is clear that difficulty increases depending on how you compile the code. To make exploit development activities trickier you could also try removing the 
