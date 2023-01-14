@@ -15,7 +15,7 @@
 # 2) Performing a memory leak through format strings on the Canary value and an address with costant
 # offset from the libc base address. Then retrieving libc base address from that address.
 # 3) Write-What-Where on read() GOT entry in strings() to jump from strings() to stack()
-# 4) Stack() is vulnerable to a stack-based buffer overflow. Building ROP chain and calling system('/bin/sh').
+# 4) Stack() is vulnerable to a stack-based buffer overflow. Calling system('/bin/sh') using the ret2system technique.
 
 # -----------------------------> NOTES <---------------------------------------------------------------------
 
